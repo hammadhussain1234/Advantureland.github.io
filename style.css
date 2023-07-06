@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    background-image: url(image/pexels-jimmy-teoh-1010657.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.header1{
+    background-image: url(image/pexels-alex-azabache-3757144.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.header2{
+    background-image: url(image/pexels-pixabay-417173.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.header3{
+    background-image: url(image/pexels-xue-guangjian-1687845.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.header4{
+    background-image: url(image/pexels-pixabay-280221.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+@media screen and (max-width: 950px) {
+    nav{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: auto;
+        background-color: azure;
+         left: 0;
+        text-align: center;
+    }
+    ul{
+        font-size: 30px;
+    }
+   
+}
+.header h1{
+    font-size: 7vmin;
+    font-weight: bold;
+    color: black;
+}
+.header1 h1{
+    font-size: 7vmin;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.header1 p{
+    font-size: 2vmin;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.h2{
+    text-align: center;
+    padding-top: 50px;
+   
+}
+.h2 h1{
+    font-size: 7vmin;
+    font-weight: bold;
+}
+.line{
+    width: 200px;
+    height: 4px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: red;
+}
+.banner{
+    background-image:  url(image/pexels-krivec-ales-547116.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.banner1{
+    background-image:  url(image/pexels-flo-maderebner-869258.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.banner1 h1{
+   color: black;
+   font-size: 10vmin;
+   font-weight: bold;
+}
+.banner1 p{
+   color: black;
+   font-size: 3vmin;
+   font-weight: bold;
+}
+@media screen and (width: 950px) {
+    .line{
+        width: 100%;
+      flex-direction: column;
+    }  
+}
+.header p{
+    font-size: 2vmin;
+    font-weight: bold;
+    color: blac-k;
+}
+.navbar{
+     position: absolute;
+     width: 80%;
+}
+#hover:hover{
+    transform: scale(1.1);
+}
+#hover{
+    transition: 1s;
+}
+#ww:hover{
+   
+     background-color: greenyellow;
+}
+.img1{
+    background-image: url(image/pexels-asad-photo-maldives-1268855.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.img1 h1{
+    font-size: 7vmin;
+    font-weight: bold;
+    color: black;
+}
+.img1 p{
+    font-size: 2vmin;
+    font-weight: bold;
+    color: black;
+}
+.img2{
+    background-image: url(image/pexels-aleksandar-pasaric-1285625.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.img2 h1{
+    font-size: 7vmin;
+    font-weight: bold;
+} 
+.img2 p{
+    font-size: 2vmin;
+    font-weight: bold;
+    color: black;
+}
+.img3{
+    background-image: url(image/pexels-asad-photo-maldives-1450340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.img3 h1{
+    font-size: 7vmin;
+    font-weight: bold;
+} 
+.img3 p{
+    font-size: 2vmin;
+    font-weight: bold;
+    color: black;
+}
+.form{
+    /* width: 50%;
+    height: auto;
+    border-radius: 30px;
+    background-color: whitesmoke; */
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.06);
+
+}
+.form1{
+    margin: 20px;
+    padding: 10px;
+}
+label{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.img{
+    background-image:  url(image/pexels-photomix-company-887751\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.h1{
+    padding-left: 15%;
+    font-size: 7vmin;
+}
+.travel h1{
+   font-size: 10vmin;
+   font-weight: bold;
+}
+/* .travel p{
+   font-size: 4vmin;
+   font-weight: bold;
+} */
+.travel li{
+   font-weight: bold;
+   color: black;
+}
+.travel1 h1{
+   font-size: 7vmin;
+   font-weight: bold;
+}
+.travel1 p{
+   font-size: 3vmin;
+   font-weight: bold;
+}
+@media screen and (max-width: 950px) {
+    .form{
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+        background-color: wheat;
+    
+    }
+    .form1{
+        margin: 20px;
+        padding: 10px;
+    } 
+    .h1{
+       padding-left: 30%;
+    }
+}
+
